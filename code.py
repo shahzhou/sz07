@@ -1,5 +1,6 @@
-from django.http import HttpRespone
+from django.http import HttpResponse
 def index(request):
-    return HttpRespone('index')
-
+    return HttpResponse('index')
+def goods(request):
+    return HttpResponse
 
